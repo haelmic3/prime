@@ -1,2 +1,2 @@
-prog.exec:main.o
-	cc -o prog.exec main.o
+prog.exec:main.o prime.o
+	cc -o $@ $^
