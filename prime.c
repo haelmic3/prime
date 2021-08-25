@@ -1,5 +1,5 @@
 #include"prime.h"
-int prime(unsigned n)
+int prime(Type n)
 {
 	switch(n)
 	{
@@ -17,7 +17,7 @@ int prime(unsigned n)
 	if(n%2==0)return 0;
 	if(n%3==0)return 0;
 	{
-		unsigned i = 1,p;
+		Type i = 1,p;
 		for(;;i++)
 		{
 			p = 6*i;
